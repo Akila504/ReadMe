@@ -1,6 +1,7 @@
-# README  
-   ## Description
-   nonde 
+# readme  
+   ## Description 
+   ![LICENSE](assets/MIT.svg)
+   na 
    ## Table of contents 
    [Installation](#installation) 
 
@@ -15,15 +16,15 @@
    [Questions](#questions) 
 
    ## Installation 
-   asdfasd  
+   na  
    ## Usage 
    undefined  
    ## Licence 
    MIT  
    ## Contributions 
-   asdf 
+   na 
    ## Tests 
-   asdf 
+   na 
    ## Questions 
    if there is any questions please reach out to me at  
-    asdf or asdf
+    na or na

@@ -68,7 +68,8 @@ const promptUser = () =>
 
 const generateReadme = (data) =>
   `# ${data.Title}  
-   ## Description
+   ## Description 
+   ![LICENSE](assets/${data.Licence}.svg)
    ${data.Description} 
    ## Table of contents 
    [Installation](#installation) 

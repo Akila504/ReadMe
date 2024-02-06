@@ -1,8 +1,8 @@
-# README Generator  
+# README GENERATOR  
    ## Description 
-   ![LICENSE](assets/MIT.svg) 
-   
-   Test run of the readme generator  
+   ![LICENSE](assets/ODbL.svg) 
+
+   Test run of the readme generator 
    ## Table of contents 
    [Installation](#installation) 
 
@@ -21,11 +21,11 @@
    ## Usage 
    undefined  
    ## Licence 
-   MIT  
+   ODbL  
    ## Contributions 
    NA 
    ## Tests 
    NA 
    ## Questions 
    if there is any questions please reach out to me at  
-    NA or NA
+   Akila504 or test@gmail.com

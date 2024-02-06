@@ -1,7 +1,8 @@
-# readme  
+# READMEgenerator  
    ## Description 
-   ![LICENSE](assets/ODbL.svg)
-   sdf 
+   ![LICENSE](assets/IPL.svg) 
+   
+   test run of readme generator 
    ## Table of contents 
    [Installation](#installation) 
 
@@ -16,15 +17,15 @@
    [Questions](#questions) 
 
    ## Installation 
-   na  
+   none  
    ## Usage 
    undefined  
    ## Licence 
-   ODbL  
+   IPL  
    ## Contributions 
-   na 
+   no 
    ## Tests 
-   na 
+   no 
    ## Questions 
    if there is any questions please reach out to me at  
-    na or na
+    akila504 or test@gmail.com

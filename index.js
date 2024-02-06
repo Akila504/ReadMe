@@ -12,51 +12,54 @@ const questions = [
     type: 'input',
     name: 'Title',
     message: 'What is the title of the readme ? '
-  }]
-// {
-//   type: 'input',
-//   name: 'Description',
-//   message: 'What is the description of the readme ?'
-// },
-// {
-//   type: 'input',
-//   name: 'Table of contents',
-//   message: 'What are the table of contents ?'
-// },
-// {
-//   type: 'input',
-//   name: 'Installation',
-//   message: 'How do you install Readme ?'
-// },
-// {
-//   type: 'input',
-//   name: 'Usage',
-//   message: 'How do you use readme ?'
-// },
-// {
-//   type: 'input',
-//   name: 'Licence',
-//   message: 'What type of licence ? '
-// },
-// {
-//   type: 'input',
-//   name: 'contributions',
-//   message: 'Any contributions from elsewhere ?'
-// },
-// {
-//   type: 'input',
-//   name: 'Tests',
-//   message: 'What tests have been performed'
-// },
-// {
-//   type: 'input',
-//   name: 'Gihub Username',
-//   message: 'What is your github username'
-// },
-// {
-//   type: 'input',
-//   name: 'Questions',
-//   message: 'What is your email adress'
+  },
+  {
+    type: 'input',
+    name: 'Description',
+    message: 'What is the description of the readme ?'
+  },
+  {
+    type: 'input',
+    name: 'contents',
+    message: 'What are the table of contents ?'
+  },
+  {
+    type: 'input',
+    name: 'Installation',
+    message: 'How do you install Readme ?'
+  },
+  {
+    type: 'input',
+    name: 'Usage',
+    message: 'How do you use readme ?'
+  },
+  {
+    type: 'rawlist',
+    name: 'Licence',
+    message: 'What type of licence ? ',
+    choices: ['MIT', 'ISC', 'GPL']
+  },
+  {
+    type: 'input',
+    name: 'contributions',
+    message: 'Any contributions from elsewhere ?'
+  },
+  {
+    type: 'input',
+    name: 'Tests',
+    message: 'What tests have been performed'
+  },
+  {
+    type: 'input',
+    name: 'Username',
+    message: 'What is your github username'
+  },
+  {
+    type: 'input',
+    name: 'Questions',
+    message: 'What is your email adress'
+  }
+]
 
 
 
@@ -64,7 +67,36 @@ const promptUser = () =>
   inquirer.prompt(questions);
 
 const generateReadme = (data) =>
-  `# ${data.Title}`;
+  `# ${data.Title}  
+   ## Description
+   ${data.Description} 
+   ## Table of contents 
+   [Installation](#installation) 
+
+   [Usage](#usage) 
+
+   [Licence](#licence) 
+
+   [Contributions](#contributions) 
+
+   [Tests](#tests) 
+   
+   [Questions](#questions) 
+
+   ## Installation 
+   ${data.Installation}  
+   ## Usage 
+   ${data.usage}  
+   ## Licence 
+   ${data.Licence}  
+   ## Contributions 
+   ${data.contributions} 
+   ## Tests 
+   ${data.Tests} 
+   ## Questions 
+   if there is any questions please reach out to me at  
+    ${data.Username} or ${data.Questions}`
+  ;
 
 
 // function to write README file
@@ -72,6 +104,8 @@ promptUser().
   then((data) => writeToFile('myREADME.md', generateReadme(data))).
   then(() => console.log(`sucess`)).
   catch((err) => console.log(err))
+
+
 
 // console.log(questions.title)
 // // function to initialize program

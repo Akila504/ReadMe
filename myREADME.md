@@ -1,6 +1,6 @@
 # README GENERATOR  
    ## Description 
-   ![LICENSE](assets/ODbL.svg) 
+   ![LICENSE](Assets/ODbL.svg) 
 
    Test run of the readme generator 
    ## Table of contents 

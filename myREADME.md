@@ -1,8 +1,8 @@
-# READMEgenerator  
+# README Generator  
    ## Description 
-   ![LICENSE](assets/IPL.svg) 
+   ![LICENSE](assets/MIT.svg) 
    
-   test run of readme generator 
+   Test run of the readme generator  
    ## Table of contents 
    [Installation](#installation) 
 
@@ -17,15 +17,15 @@
    [Questions](#questions) 
 
    ## Installation 
-   none  
+   NA  
    ## Usage 
    undefined  
    ## Licence 
-   IPL  
+   MIT  
    ## Contributions 
-   no 
+   NA 
    ## Tests 
-   no 
+   NA 
    ## Questions 
    if there is any questions please reach out to me at  
-    akila504 or test@gmail.com
+    NA or NA

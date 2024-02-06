@@ -20,11 +20,6 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contents',
-    message: 'What are the table of contents ?'
-  },
-  {
-    type: 'input',
     name: 'Installation',
     message: 'How do you install Readme ?'
   },
@@ -70,7 +65,7 @@ const generateReadme = (data) =>
   `# ${data.Title}  
    ## Description 
    ![LICENSE](assets/${data.Licence}.svg) 
-   
+
    ${data.Description} 
    ## Table of contents 
    [Installation](#installation) 

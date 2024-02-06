@@ -1,7 +1,7 @@
 # readme  
    ## Description 
-   ![LICENSE](assets/MIT.svg)
-   na 
+   ![LICENSE](assets/ODbL.svg)
+   sdf 
    ## Table of contents 
    [Installation](#installation) 
 
@@ -20,7 +20,7 @@
    ## Usage 
    undefined  
    ## Licence 
-   MIT  
+   ODbL  
    ## Contributions 
    na 
    ## Tests 

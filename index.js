@@ -37,7 +37,7 @@ const questions = [
     type: 'rawlist',
     name: 'Licence',
     message: 'What type of licence ? ',
-    choices: ['MIT', 'ISC', 'GPL']
+    choices: ['MIT', 'IPL', 'ODbL']
   },
   {
     type: 'input',
